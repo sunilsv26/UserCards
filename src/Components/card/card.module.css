@@ -1,0 +1,44 @@
+.Card{
+    padding: 5px;
+    height: auto;
+    width: 350px;
+    margin: 10px auto;
+    box-sizing: border-box;
+    background-color:white;
+    border-radius: 8px;
+    box-shadow: 1px 1px rgb(3, 8, 19);
+    background-image: linear-gradient(to bottom right,rgb(189, 190, 219),hsl(204, 61%, 61%));
+}
+
+.cardRow1{
+    display: flex;
+    height: 65%;
+    box-sizing: border-box;
+}
+
+.cardRow2{
+    height: auto;
+    box-sizing: border-box;
+}
+
+.Picture{
+    width: 35%;
+    padding: 2px;
+    
+}
+
+.Picture img{
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+    border: 1px solid black;
+}
+.Gender{
+    width: 35%;
+}
+
+@media (max-width:500px){
+    .Card{
+        width: 100%;
+    }
+}

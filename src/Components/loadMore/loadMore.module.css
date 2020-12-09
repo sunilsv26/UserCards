@@ -1,0 +1,21 @@
+.LoadMore{
+    text-align: center;
+    margin: 5px auto;
+}
+
+.LoadMore button{
+    display: block;
+    width: 250px;
+    cursor: pointer;
+    padding: 12px;
+    font-size: 16px;
+    margin: auto;
+    font-weight: 500;
+    background-color:#92DE34;
+    color: #025600;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 0 0 7px #92DE34 inset
+}
+
